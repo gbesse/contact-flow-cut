@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "contact-flow-cut"
+version = "0.1.0a1"
+description = "FR: Montrer le goulot de livraison dans un réseau de contacts spatiaux | EN: Show the delivery bottleneck in a space contact network | ES: Mostrar el cuello de botella de entrega en una red de contactos espaciales"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+contact-flow-cut = "contact_flow_cut.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["contact_flow_cut*"]

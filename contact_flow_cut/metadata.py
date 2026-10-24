@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Montrer le goulot de livraison dans un réseau de contacts spatiaux', 'en': 'Show the delivery bottleneck in a space contact network', 'es': 'Mostrar el cuello de botella de entrega en una red de contactos espaciales'}

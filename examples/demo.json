@@ -1,0 +1,37 @@
+{
+  "sites": [
+    {
+      "id": "A",
+      "buffer_bytes": 10
+    },
+    {
+      "id": "B",
+      "buffer_bytes": 2
+    },
+    {
+      "id": "D",
+      "buffer_bytes": 10
+    }
+  ],
+  "source": "A",
+  "target": "D",
+  "bytes": 10,
+  "contacts": [
+    {
+      "id": "uplink",
+      "from": "A",
+      "to": "B",
+      "start": 0,
+      "end": 1,
+      "capacity_bytes": 10
+    },
+    {
+      "id": "downlink",
+      "from": "B",
+      "to": "D",
+      "start": 3,
+      "end": 4,
+      "capacity_bytes": 10
+    }
+  ]
+}
